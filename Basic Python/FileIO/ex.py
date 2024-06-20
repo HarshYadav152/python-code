@@ -1,5 +1,5 @@
 import os
-lst = ["Harsh yadav\n","Priyanshi Sengar"]
+lst = ["Harsh yadav\n"]
 with open("harsh.txt","w") as f:
     f.writelines(lst)
 
