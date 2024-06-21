@@ -15,7 +15,7 @@ class DancerEmployee(dancer,employee):
         self.dance = dance
         self.name = name
 
-o = DancerEmployee("Salsa","Priyanshi")
+o = DancerEmployee("Salsa","Jyoti")
 print(o.name)
 o.show()
 print(DancerEmployee.mro()) # iske hisab se hamare order of execution change honge
