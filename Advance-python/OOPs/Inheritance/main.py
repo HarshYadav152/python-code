@@ -15,5 +15,5 @@ class Programmer(Employee): # it can have access the function of base class
 e = Programmer("Harsh Yadav",101)
 e.showDetails()
 e.showLanguage()
-e1 = Employee("Priyanshi Senger",102)
+e1 = Employee("SP",102)
 e1.showDetails()
