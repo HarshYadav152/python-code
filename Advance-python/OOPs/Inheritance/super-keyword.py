@@ -11,14 +11,14 @@ class derived(base):
         self.id = id
 
     def base_method(self):
-        print("Priyanshi")
+        print("HSPY")
         super().base_method() # using super() we can run base class method
 
     def derived_method(self):
         print("This is derived method")
         super().base_method() # running base class method
 
-objectb = base("Priyanshi")
+objectb = base("HSPY")
 object = derived("harsh",101)
 # object.derived_method()
 # object.base_method()
