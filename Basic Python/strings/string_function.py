@@ -1,4 +1,4 @@
-story = "Harsh Sengar Harsh Sengar"
+story = "Harsh S Harsh S"
 # print(story[0:5])
 
 # print(len(story)) # returns the length of the string
