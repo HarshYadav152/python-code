@@ -5,7 +5,7 @@ if True:
         if False:
             print("Condition is true ki false")
         else:
-            print("Condi-is true in nested else")
+            print("Condition is true in nested else")
         print("Nested else se bahar")
 else:
     print("Bahar aa gaye")
