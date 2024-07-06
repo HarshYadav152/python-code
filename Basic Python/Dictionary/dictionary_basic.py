@@ -46,21 +46,21 @@ print(myDict.items())
 
 # .update(another_dictionary) the dictionary by adding the (key:value) pair to the original dictionary
 updateDictionary = {
-    "Sengar":"P"
+    "S":"P"
 }
 
 myDict.update(updateDictionary) 
 print(myDict)
 
 # whatif we add already added item to the dictionary
-myDict.update({'Sengar':'ps'}) # it will overwrite the dictionary content
+myDict.update({'S':'ps'}) # it will overwrite the dictionary content
 # print(myDict)
 
 # .get(key) give the value of the corresponding key otherwise return the none
-# print(myDict.get('Sengar')) # prints the corressponding value to the specified key 
-# print(myDict['Sengar']) # prints the corressponding value to the specified key 
-# print(myDict.get('Sengar1')) # but it is not
-# print(myDict['Sengar1']) # it will trown an error since Sengar1 in not in the myDict keys
+# print(myDict.get('S')) # prints the corressponding value to the specified key 
+# print(myDict['S']) # prints the corressponding value to the specified key 
+# print(myDict.get('S1')) # but it is not
+# print(myDict['S1']) # it will trown an error since Sengar1 in not in the myDict keys
 
 print(myDict.get(1))
 
